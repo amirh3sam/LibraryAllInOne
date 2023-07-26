@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: As a librarian, I want to retrieve all users
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.912 s <<< FAILURE! - in As a librarian, I want to retrieve all users
+As a librarian, I want to retrieve all users.Retrieve all users from the API endpoint  Time elapsed: 11.912 s  <<< FAILURE!
+org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
+Caused by: java.lang.NullPointerException
+

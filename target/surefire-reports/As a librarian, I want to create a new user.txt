@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: As a librarian, I want to create a new user
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.547 s <<< FAILURE! - in As a librarian, I want to create a new user
+As a librarian, I want to create a new user.Create a new user API  Time elapsed: 24.746 s  <<< FAILURE!
+org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
+Caused by: java.lang.NullPointerException
+
+As a librarian, I want to create a new user.Create a new user all layers  Time elapsed: 11.778 s  <<< FAILURE!
+org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
+Caused by: java.lang.NullPointerException
+
