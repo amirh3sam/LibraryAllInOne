@@ -14,26 +14,28 @@ pipeline {
         stage('Test') {
             steps {
                 // Some test steps here
-                bat 'mvn test'
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                // Some deployment steps here
-                bat 'mvn deploy'
+                bat 'mvn test -Dcucumber.filter.tags=@smoke'
             }
         }
     }
 
-    post {
-        success {
-            // This block will run if the pipeline is successful
-            echo 'Build successful! Yay!'
-        }
-        failure {
-            // This block will run if the pipeline fails
-            echo 'Build failed! Oh no!'
+    post {always {
+            // Publish Cucumber reports using the 'cucumber' step from the Cucumber Reports plugin
+            cucumber(
+                buildStatus: 'null',
+                customCssFiles: '',
+                customJsFiles: '',
+                failedFeaturesNumber: -1,
+                failedScenariosNumber: -1,
+                failedStepsNumber: -1,
+                fileIncludePattern: '*/.json',
+                jsonReportDirectory: 'target',
+                pendingStepsNumber: -1,
+                reportTitle: 'my cucumber report',
+                skippedStepsNumber: -1,
+                sortingMethod: 'ALPHABETICAL',
+                undefinedStepsNumber: -1
+            )
         }
     }
 }
