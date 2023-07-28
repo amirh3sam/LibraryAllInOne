@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -21,8 +20,12 @@ pipeline {
 
     post {
         always{
-
-              cucumber( buildStatus: 'null', 
+             junit 'target/**/*.xml'
+             
+             archiveArtifacts 'target/**/*.xml'
+             
+             
+             cucumber( buildStatus: 'null', 
                         customCssFiles: '', 
                         customJsFiles: '', 
                         failedFeaturesNumber: -1, 
@@ -33,6 +36,7 @@ pipeline {
                         skippedStepsNumber: -1, 
                         sortingMethod: 'ALPHABETICAL', 
                         undefinedStepsNumber: -1)
+             
         }
     }
 }
