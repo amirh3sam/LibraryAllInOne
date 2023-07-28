@@ -7,6 +7,8 @@
             steps {
                 // Checkout your Git repository
              git 'https://github.com/amirh3sam/LibraryAllInOne'
+                  git log
+
             }
         }
 
