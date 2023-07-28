@@ -6,22 +6,22 @@ pipeline {
         stage('Build') {
             steps {
                 // Some build steps here
-                bat 'make clean'
-                bat 'make'
+                bat 'mvn clean'
+               
             }
         }
 
         stage('Test') {
             steps {
                 // Some test steps here
-                bat 'make test'
+                bat 'mvn test'
             }
         }
 
         stage('Deploy') {
             steps {
                 // Some deployment steps here
-                bat 'make deploy'
+                bat 'mvn deploy'
             }
         }
     }
