@@ -20,8 +20,9 @@ pipeline {
     }
 
     post {
+        always{
 
-              cucumber buildStatus: 'null', 
+              cucumber( buildStatus: 'null', 
                         customCssFiles: '', 
                         customJsFiles: '', 
                         failedFeaturesNumber: -1, 
@@ -31,6 +32,7 @@ pipeline {
                         pendingStepsNumber: -1, 
                         skippedStepsNumber: -1, 
                         sortingMethod: 'ALPHABETICAL', 
-                        undefinedStepsNumber: -1
+                        undefinedStepsNumber: -1)
+        }
     }
 }
