@@ -13,14 +13,14 @@
         stage('Build') {
             steps {
                 // Assuming it's a Maven project, build it
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
 
         stage('Test') {
             steps {
                 // Assuming it's a Maven project, run tests
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
