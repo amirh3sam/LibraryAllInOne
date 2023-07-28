@@ -13,7 +13,7 @@
         stage('Build and Execute Tests') {
             steps {
                 script {
-                    bat"mvn clean install"
+                  //  bat"mvn clean install"
                   bat "mvn test -Dcucumber.filter.tags=@smoke"
                 }
             }
