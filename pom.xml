@@ -95,7 +95,6 @@
                     <parallel>methods</parallel>
                     <threadCount>4</threadCount>
                     <testFailureIgnore>true</testFailureIgnore>
-                   <useManifestOnlyJar>true</useManifestOnlyJar>
                     <includes>
                         <include>**/CukesRunner*.java</include>
                     </includes>
@@ -103,7 +102,23 @@
                 </configuration>
 
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <!-- Replace com.example.MainClass with your actual main class -->
+                            <mainClass>com.library.runner</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
         </plugins>
+
     </build>
 
 
