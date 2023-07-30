@@ -29,7 +29,7 @@ pipeline {
 build job: 'ProjectB', parameters: [string(name: 'APP_JAR', value: 'LibraryAppAllInOne-1.0-SNAPSHOT.jar')]
 
 // Scripted call 
-bat "C:/ProgramData\Jenkins/.jenkins/workspace/firstPipeLIne/target/LibraryAppAllInOne-1.0-SNAPSHOT.jar"
+bat "C:/ProgramData/Jenkins/.jenkins/workspace/firstPipeLIne/target/LibraryAppAllInOne-1.0-SNAPSHOT.jar"
 
 // Copy artifact
 copyArtifacts(projectName: 'firstPipeLIne ', target: 'libs\\\\', flatten: true)
