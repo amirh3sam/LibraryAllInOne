@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c046d43-b943-47db-95f6-7127ba17dc83" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9b99ee5f-995f-466a-8c98-8b28b9235203.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9b99ee5f-995f-466a-8c98-8b28b9235203/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid24136.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid44816.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid52716.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid61528.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/library/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/library/utility/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/library/utility/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/us01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/us01.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryAppAllInOne-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548349.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548349.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548883.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548883.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186590.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186590.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186593.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186593.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new book.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to retrieve all users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to retrieve all users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a user, I want to search for a specific user by their id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a user, I want to search for a specific user by their id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new book.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to retrieve all users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to retrieve all users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a user, I want to search for a specific user by their id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a user, I want to search for a specific user by their id.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-_ As a user, I want to view my own user information using the API.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-_ As a user, I want to view my own user information using the API.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/_ As a user, I want to view my own user information using the API.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/_ As a user, I want to view my own user information using the API.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +44,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,25 +68,30 @@
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/amirh/IdeaProjects/LibraryAllInOne",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amirh/IdeaProjects/LibraryAllInOne&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amirh\IdeaProjects\LibraryAllInOne\src\test\resources\features" />
+    </key>
+  </component>
   <component name="RunManager" selected="Maven.Maven_smoke">
     <configuration name="Feature: us03" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -193,7 +221,9 @@
             <option name="goals">
               <list>
                 <option value="test" />
-                <option value="-Dcucumber.filter.tags=@smoke" />
+                <option value="-Dcucumber.filter.tags=@ui" />
+                <option value="-DBrowserName=chrome,firefox" />
+                <option value="-Dsurefire.forkCount=2" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -253,7 +283,8 @@
       <workItem from="1689346930662" duration="1311000" />
       <workItem from="1689780487513" duration="2029000" />
       <workItem from="1690146242709" duration="46000" />
-      <workItem from="1690407744389" duration="6261000" />
+      <workItem from="1690407744389" duration="9305000" />
+      <workItem from="1690557303931" duration="12304000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1690408097501</created>
@@ -290,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690506381425</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1690506530330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690506530330</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1690507187972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690507187972</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

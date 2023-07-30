@@ -1,20 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: : As a user, I want to view my own user information using the API
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 80.318 s <<< FAILURE! - in : As a user, I want to view my own user information using the API
-: As a user, I want to view my own user information using the API.Decode User #1  Time elapsed: 20.501 s  <<< FAILURE!
-org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
-Caused by: java.lang.NullPointerException
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 119.972 s <<< FAILURE! - in : As a user, I want to view my own user information using the API
+: As a user, I want to view my own user information using the API.Decode User #1  Time elapsed: 26.086 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
 
-: As a user, I want to view my own user information using the API.Decode User #2  Time elapsed: 18.21 s  <<< FAILURE!
-org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
-Caused by: java.lang.NullPointerException
 
-: As a user, I want to view my own user information using the API.Decode User #3  Time elapsed: 29.875 s  <<< FAILURE!
-org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
-Caused by: java.lang.NullPointerException
+: As a user, I want to view my own user information using the API.Decode User #2  Time elapsed: 26.978 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
 
-: As a user, I want to view my own user information using the API.Decode User #4  Time elapsed: 11.729 s  <<< FAILURE!
-org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
-Caused by: java.lang.NullPointerException
+
+: As a user, I want to view my own user information using the API.Decode User #3  Time elapsed: 34.723 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+: As a user, I want to view my own user information using the API.Decode User #4  Time elapsed: 32.181 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
 

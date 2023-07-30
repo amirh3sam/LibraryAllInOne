@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: As a user, I want to search for a specific user by their id
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.918 s <<< FAILURE! - in As a user, I want to search for a specific user by their id
-As a user, I want to search for a specific user by their id.Retrieve single user  Time elapsed: 10.918 s  <<< FAILURE!
-org.codehaus.groovy.GroovyBugError: BUG! exception in phase 'class generation' in source unit 'Script1.groovy' unexpected NullPointerException
-Caused by: java.lang.NullPointerException
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.785 s - in As a user, I want to search for a specific user by their id

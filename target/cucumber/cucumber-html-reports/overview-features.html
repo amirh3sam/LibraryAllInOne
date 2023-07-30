@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
+                44,
                 7,
-                0,
-                0,
+                33,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 7) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 84) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,7 +107,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                 1,
-                0
+                7
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 8) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -154,7 +154,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                    1,
-                   0
+                   3
                ],
                backgroundColor: [
                 "#00B000",
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 4) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>27 Jul 2023, 20:37</td>
+      <td>28 Jul 2023, 17:25</td>
     </tr>
   </tbody>
 </table>
@@ -323,7 +323,7 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_1238630349.html">As a librarian, I want to retrieve all users</a></td>
+        <td class="tagname"><a href="report-feature_3287904602.html">As a librarian, I want to retrieve all users</a></td>
 
         <td      class="passed"    >7</td>
         <td >0</td>
@@ -336,41 +336,92 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="12336422000">12.336</td>
+        <td class="duration" data-value="6806968000">6.806</td>
         <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_1_3967962972.html">As a librarian, I want to create a new book</a></td>
+
+        <td      class="passed"    >7</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">12</td>
+
+        <td >0</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="13988241900">13.988</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_2_2160508509.html">As a librarian, I want to create a new user</a></td>
+
+        <td      class="passed"    >10</td>
+        <td      class="failed"    >2</td>
+        <td     class="skipped"   >9</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">21</td>
+
+        <td >0</td>
+        <td  class="failed"    >2</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="6564078000">6.564</td>
+        <td class="failed">Failed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_3_353054046.html">: As a user, I want to view my own user information using the API</a></td>
+
+        <td      class="passed"    >20</td>
+        <td      class="failed"    >4</td>
+        <td     class="skipped"   >20</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">44</td>
+
+        <td >0</td>
+        <td  class="failed"    >4</td>
+        <td class="total">4</td>
+
+        <td class="duration" data-value="6511516800">6.511</td>
+        <td class="failed">Failed</td>
       </tr>
   </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
+      <td>44</td>
       <td>7</td>
+      <td>33</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>7</td>
+      <td>84</td>
 
       <td>1</td>
-      <td>0</td>
-      <td>1</td>
+      <td>7</td>
+      <td>8</td>
 
-      <td class="duration">12.336</td>
-      <td>1</td>
+      <td class="duration">33.870</td>
+      <td>4</td>
     </tr>
     <tr>
       <td></td>
-      <td>100.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
+      <td>52.38%</td>
+      <td>8.33%</td>
+      <td>39.29%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>100.00%</td>
-      <td>0.00%</td>
+      <td>12.50%</td>
+      <td>87.50%</td>
       <td></td>
       <td></td>
-      <td>100.00%</td>
+      <td>25.00%</td>
     </tr>
   </tfoot>
 </table>
