@@ -40,7 +40,7 @@ bat "java -jar libs\\my-app.jar"
 runApp(APP_JAR)
 
 // Artifact repository
-bat "mvn deploy:deploy-file -Dfile=C:/ProgramData\Jenkins/.jenkins/workspace/firstPipeLIne/target/LibraryAppAllInOne-1.0-SNAPSHOT.jar -DrepositoryId=myRepo"
+bat "mvn deploy:deploy-file -Dfile=C:/ProgramData/Jenkins/.jenkins/workspace/firstPipeLIne/target/LibraryAppAllInOne-1.0-SNAPSHOT.jar -DrepositoryId=myRepo"
 bat "java -jar my-app:1.0-SNAPSHOT"
 
 // Shared filesystem
