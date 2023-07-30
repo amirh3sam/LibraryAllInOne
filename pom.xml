@@ -111,7 +111,7 @@
                     <archive>
                         <manifest>
                             <!-- Replace com.example.MainClass with your actual main class -->
-                            <mainClass>com.library.runner</mainClass>
+                            <mainClass>target</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
