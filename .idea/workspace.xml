@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c046d43-b943-47db-95f6-7127ba17dc83" name="Changes" comment="update" />
+    <list default="true" id="1c046d43-b943-47db-95f6-7127ba17dc83" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548349.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548349.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548883.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2147548883.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186590.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186590.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186593.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2210186593.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new book.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to create a new user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to retrieve all users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/As a librarian, I want to retrieve all users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new book.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to create a new user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to retrieve all users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-As a librarian, I want to retrieve all users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-_ As a user, I want to view my own user information using the API.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-_ As a user, I want to view my own user information using the API.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/_ As a user, I want to view my own user information using the API.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/_ As a user, I want to view my own user information using the API.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +276,7 @@
       <workItem from="1689780487513" duration="2029000" />
       <workItem from="1690146242709" duration="46000" />
       <workItem from="1690407744389" duration="9305000" />
-      <workItem from="1690557303931" duration="13006000" />
+      <workItem from="1690557303931" duration="18049000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1690408097501</created>
@@ -320,7 +341,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690728669301</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1690729026678</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690729026678</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1690729188863</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690729188863</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +366,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="117" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="61" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="60" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

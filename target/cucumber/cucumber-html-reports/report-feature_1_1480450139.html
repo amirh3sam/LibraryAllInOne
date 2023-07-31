@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports  - Tag: @smoke</title>
+<title>Cucumber Reports  - Feature: As a user, I want to search for a specific user by their id</title>
 
 </head>
 <body>
@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>30 Jul 2023, 11:33</td>
+      <td>28 Jul 2023, 17:17</td>
     </tr>
   </tbody>
 </table>
@@ -87,7 +87,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Tag Report</h2>
+    <h2>Feature Report</h2>
   </div>
 </div>
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Tag</th>
+    <th>Feature</th>
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -126,19 +126,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">@smoke</td>
-          <td      class="passed"    >7</td>
+          <td class="tagname">As a user, I want to search for a specific user by their id</td>
+          <td      class="passed"    >8</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">7</td>
+          <td class="total">8</td>
 
           <td  class="passed"    >1</td>
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="7464504100">7.464</td>
+          <td class="duration" data-value="5554521600">5.554</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -165,32 +165,38 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="elements">
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3287904602.html">As a librarian, I want to retrieve all users</a>
-    </div>
-
+      <div class="feature">
 
 <div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2210186590.html">@us01</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-       <a href="report-tag_2147548883.html">@ui</a>
 </div>
 
 
-  <span class="lead-duration duration">7.464</span>
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">As a user, I want to search for a specific user by their id</span>
+
+
+</div>
+
+        <div class="description indention">        so that I can quickly find the information I need.</div>
+
+        <div class="elements inner-level">
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">5.554</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Retrieve all users from the API endpoint</span>
+  <span class="name">Retrieve single user</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -202,43 +208,11 @@ $(document).ready(function() {
   <div id="element-1" class="collapse collapsable-details ">
 
 
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-2" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">com.library.steps.Hooks.setUp()</span>
-
-  <span class="lead-duration duration">18.332</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -250,7 +224,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -258,7 +232,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I logged Library api as a <span class="argument">&quot;librarian&quot;</span></span>
 
-  <span class="lead-duration duration">5.374</span>
+  <span class="lead-duration duration">4.834</span>
 
 </div>
 
@@ -308,11 +282,38 @@ $(document).ready(function() {
       <div class="step">
 
 
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Path param is <span class="argument">&quot;1&quot;</span></span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">I send GET request to <span class="argument">&quot;/get_all_users&quot;</span> endpoint</span>
+  <span class="name">I send GET request to <span class="argument">&quot;/get_user_by_id/{id}&quot;</span> endpoint</span>
 
-  <span class="lead-duration duration">0.905</span>
+  <span class="lead-duration duration">0.428</span>
 
 </div>
 
@@ -339,7 +340,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">status code should be <span class="argument">200</span></span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -366,7 +367,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">Response Content type is <span class="argument">&quot;application/json; charset=utf-8&quot;</span></span>
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.017</span>
 
 </div>
 
@@ -391,9 +392,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">&quot;id&quot;</span> field should not be null</span>
+  <span class="name"><span class="argument">&quot;id&quot;</span> field should be same with path param</span>
 
-  <span class="lead-duration duration">1.143</span>
+  <span class="lead-duration duration">0.156</span>
 
 </div>
 
@@ -418,9 +419,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">&quot;name&quot;</span> field should not be null</span>
+  <span class="name">following fields should not be null</span>
 
-  <span class="lead-duration duration">0.030</span>
+  <span class="lead-duration duration">0.114</span>
 
 </div>
 
@@ -430,6 +431,17 @@ $(document).ready(function() {
 
 
 
+          <table class="step-arguments">
+              <tr>
+                  <td>full_name</td>
+              </tr>
+              <tr>
+                  <td>email</td>
+              </tr>
+              <tr>
+                  <td>password</td>
+              </tr>
+          </table>
 
 
 
@@ -446,42 +458,11 @@ $(document).ready(function() {
 
 
 
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
+  </div>
 </div>
-
-    </div>
-
-    <div id="after-4" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">com.library.steps.Hooks.tearDown(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">3.385</span>
-
-          </div>
-
-
-
-
-
-
 
         </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
 
       </div>
     </div>
