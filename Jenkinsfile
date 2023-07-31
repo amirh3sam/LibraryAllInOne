@@ -15,7 +15,7 @@ pipeline {
             steps {
                 // Some test steps here
                 //run only the smoke tags
-              bat 'mvn test -Dcucumber.filter.tags=@smoke -Dbrowser=%browser%'
+              bat 'mvn test -Dcucumber.filter.tags=@smoke -Dbrowser=%BROWSER%'
               
 
             }
@@ -25,8 +25,7 @@ pipeline {
       //Archive the JAR file as an artifact after build:
       //The artifact can be easily downloaded and shared with others like for testing or analysis.
        archiveArtifacts 'target/*.jar'
-              
-
+            
             }
         }
     }
