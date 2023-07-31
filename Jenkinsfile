@@ -15,7 +15,7 @@ pipeline {
             steps {
                 // Some test steps here
                 //run only the smoke tags
-              bat 'mvn test -Dcucumber.filter.tags=@smoke -Dbrowser=%browser%'
+              bat 'mvn test -Dcucumber.filter.tags=@smoke -Dbrowser=%BROWSER%'
               
 
             }
