@@ -1,26 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: : As a user, I want to view my own user information using the API
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 58.013 s <<< FAILURE! - in : As a user, I want to view my own user information using the API
-: As a user, I want to view my own user information using the API.Decode User #1  Time elapsed: 30.093 s  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 57.623 s <<< FAILURE! - in : As a user, I want to view my own user information using the API
+: As a user, I want to view my own user information using the API.Decode User #1  Time elapsed: 30.675 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
 
-: As a user, I want to view my own user information using the API.Decode User #2  Time elapsed: 13.376 s  <<< FAILURE!
+: As a user, I want to view my own user information using the API.Decode User #2  Time elapsed: 12.083 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
 
-: As a user, I want to view my own user information using the API.Decode User #3  Time elapsed: 7.282 s  <<< FAILURE!
+: As a user, I want to view my own user information using the API.Decode User #3  Time elapsed: 7.579 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
 
-: As a user, I want to view my own user information using the API.Decode User #4  Time elapsed: 7.26 s  <<< FAILURE!
+: As a user, I want to view my own user information using the API.Decode User #4  Time elapsed: 7.283 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.

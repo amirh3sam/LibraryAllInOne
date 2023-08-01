@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: As a librarian, I want to create a new user
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.139 s <<< FAILURE! - in As a librarian, I want to create a new user
-As a librarian, I want to create a new user.Create a new user API  Time elapsed: 30.052 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.042 s <<< FAILURE! - in As a librarian, I want to create a new user
+As a librarian, I want to create a new user.Create a new user API  Time elapsed: 28.613 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
 
-As a librarian, I want to create a new user.Create a new user all layers  Time elapsed: 12.085 s  <<< FAILURE!
+As a librarian, I want to create a new user.Create a new user all layers  Time elapsed: 10.425 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
