@@ -15,44 +15,22 @@ pipeline {
             steps {
                 // Some test steps here
                 //run only the smoke tags
-              bat 'mvn test -Dcucumber.filter.tags=%@testType% -Dbrowser=%browser%'
+              bat 'mvn test -Dcucumber.filter.tags=@smoke-Dbrowser=chrome'
               
 
             }
         }
-        stage('Archive artifact the Jar file') {
+     stage('Copy JAR to Target Repository') {
             steps {
-      //Archive the JAR file as an artifact after build:
-      //The artifact can be easily downloaded and shared with others like for testing or analysis.
-       archiveArtifacts 'target/*.jar'
-            
+                // Copy the JAR file to the target repository
+                bat 'cp LibraryAppAllInOne-1.0-SNAPSHOT.jar /target'
             }
         }
-    }
-
-    post {
-        always{
-            
-            
-             junit 'target/**/*.xml'
-             
-             archiveArtifacts 'target/**/*.xml'
-             
-             
-             cucumber( buildStatus: 'null', 
-                        customCssFiles: '', 
-                        customJsFiles: '', 
-                        failedFeaturesNumber: -1, 
-                        failedScenariosNumber: -1, 
-                        failedStepsNumber: -1, 
-                        fileIncludePattern: 'target/cucumber.json', 
-                        pendingStepsNumber: -1, 
-                        skippedStepsNumber: -1, 
-                        sortingMethod: 'ALPHABETICAL', 
-                        undefinedStepsNumber: -1)
-                        
-           
-            
-        }
-    }
+        stage('Run JAR') {
+            steps {
+                // Navigate to the target repository directory and run the JAR file
+                dir('/target') {
+                    bat 'java -jar LibraryAppAllInOne-1.0-SNAPSHOT.jar'
+                }
+            }
 }
